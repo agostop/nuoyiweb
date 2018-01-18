@@ -1,0 +1,85 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    margin-top: 61px;
+    height: 580px;
+    max-height: 580px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tuul img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: auto!important;
+    background-size: cover;
+}
+
+#banner ul.tuul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10000px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#banner ul.tuul li {
+    float: left;
+    cursor: pointer;
+    height: 100%;
+}
+
+#banner ul li.no1 {
+    background: url(../img/slides/1.jpg) no-repeat center top;
+    background-size: cover;
+}
+#banner ul li.no2 {
+    background: url(../img/slides/2.jpg) no-repeat center top;
+    background-size: cover;
+}
+#banner ul li.no3 {
+    background: url(../img/slides/3.jpg) no-repeat center top;
+    background-size: cover;
+}
+#banner ul li.no4 {
+    background: url(../img/slides/4.jpg) no-repeat center top;
+    background-size: cover;
+}
+#banner ul li.no5 {
+    background: url(../img/banner10.jpg) no-repeat center top;
+    background-size: cover;
+}
+#banner .anniu .leftbut {
+    position: absolute;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    top: 50%;
+    margin-top: -38px;
+    left: 10%;
+    z-index: 999;
+    background: url(../img/slides/left.png) no-repeat center;
+    cursor: pointer;
+}
+
+#banner .anniu .rightbut {
+    position: absolute;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    top: 50%;
+    z-index: 999;
+    margin-top: -38px;
+    right: 10%;
+    background: url(../img/slides/right.png) no-repeat center;
+    cursor: pointer;
+}
